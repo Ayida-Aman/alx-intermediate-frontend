@@ -1,0 +1,13 @@
+@mixin m-X-body{
+    margin: 0 10px;
+}
+@mixin m-X-div{
+    margin: 0 15px;
+}
+
+body{
+    @include m-X-body;
+}
+div{
+    @include m-X-div;
+}
